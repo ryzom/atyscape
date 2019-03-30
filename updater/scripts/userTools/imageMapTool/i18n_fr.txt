@@ -1,0 +1,23 @@
+Title : ImageMapTool - Ryturn User Tool
+Create : Créer
+MouseUp : Bouton droit relacher
+SetEvent : Evènements
+Init : Initialiser
+Save : Sauver
+.Move : Déplacer la fenetre
+Args : Arguments
+MouseClick : Clique sur le bouton droit
+AltImageCreator : Createur d'Images Alternatives
+FunctionName : Nom de la fonction
+ImageRef : Image : 
+MouseMove : Déplacement de la souris
+EventName : Nom de l'évènement
+MouseDown : Bouton droit presser
+.Alt : Afficher une image alternative
+Ban : ImageMapTool\n-\nRyturn Project (2008)
+ImageMap : Image Map : 
+ImageAlt : Image Alternative
+Add : Ajouter
+DDFInit : Initialisation du fichier DDF
+Del : Supprimer
+Select : Selectionner

@@ -1,0 +1,116 @@
+list Créer votre personnage
+global Général
+pseudo Prénom
+name Nom
+face Tête
+hair_style Coupe de cheveux
+hair_style.a Artistique
+hair_style.s Courte
+hair_style.l Longue
+hair_style.y Stylisee
+couleur_yeux Couleur des yeux
+maquillage Maquillage
+race Race
+race.f Fyros
+race.m Matis
+race.t Tryker
+race.z Zorai
+gender Genre
+gender.m Homin
+gender.f Homine
+eyes_color Couleur des Yeux
+eyes_color.w Blancs
+eyes_color.y Jaunes
+eyes_color.r Oranges
+eyes_color.u Violet
+eyes_color.g Verts
+eyes_color.p Roses
+eyes_color.o Rouges
+eyes_color.b Bleus
+hair_color Couleur des Cheveux
+hair_color.w Turquoises
+hair_color.y Jaunes
+hair_color.b Marrons
+hair_color.r Rouges
+hair_color.u Violets
+hair_color.g Verts
+tatoo Tatouage
+tatoo._A0_ Tatoo A0
+tatoo._A1_ Tatoo A1
+tatoo._A2_ Tatoo A2
+tatoo._A3_ Tatoo A3
+tatoo._A4_ Tatoo A4
+tatoo._A5_ Tatoo A5
+tatoo._A6_ Tatoo A6
+tatoo._A7_ Tatoo A7
+tatoo._A8_ Tatoo A8
+tatoo._A9_ Tatoo A9
+tatoo._B0_ Tatoo B0
+tatoo._B1_ Tatoo B1
+tatoo._B2_ Tatoo B2
+tatoo._B3_ Tatoo B3
+tatoo._B4_ Tatoo B4
+tatoo._B5_ Tatoo B5
+tatoo._B6_ Tatoo B6
+tatoo._B7_ Tatoo B7
+tatoo._B8_ Tatoo B8
+tatoo._B9_ Tatoo B9
+tatoo._C0_ Tatoo C0
+tatoo._C1_ Tatoo C1
+tatoo._C2_ Tatoo C2
+tatoo._C3_ Tatoo C3
+tatoo._C4_ Tatoo C4
+tatoo._C5_ Tatoo C5
+tatoo._C6_ Tatoo C6
+tatoo._C7_ Tatoo C7
+tatoo._C8_ Tatoo C8
+tatoo._C9_ Tatoo C9
+tatoo._D0_ Tatoo D0
+tatoo._D1_ Tatoo D1
+tatoo._D2_ Tatoo D2
+tatoo._D3_ Tatoo D3
+tatoo._D4_ Tatoo D4
+tatoo._D5_ Tatoo D5
+tatoo._D6_ Tatoo D6
+tatoo._D7_ Tatoo D7
+tatoo._D8_ Tatoo D8
+tatoo._D9_ Tatoo D9
+tatoo._E0_ Tatoo E0
+tatoo._E1_ Tatoo E1
+tatoo._E2_ Tatoo E2
+tatoo._E3_ Tatoo E3
+tatoo._E4_ Tatoo E4
+tatoo._E5_ Tatoo E5
+tatoo._E6_ Tatoo E6
+tatoo._E7_ Tatoo E7
+tatoo._E8_ Tatoo E8
+tatoo._E9_ Tatoo E9
+tatoo._F0_ Tatoo F0
+tatoo._F1_ Tatoo F1
+tatoo._F2_ Tatoo F2
+tatoo._F3_ Tatoo F3
+tatoo._F4_ Tatoo F4
+tatoo._F5_ Tatoo F5
+tatoo._F6_ Tatoo F6
+tatoo._F7_ Tatoo F7
+tatoo._F8_ Tatoo F8
+tatoo._F9_ Tatoo F9
+tatoo._G0_ Tatoo G0
+tatoo._G1_ Tatoo G1
+tatoo._G2_ Tatoo G2
+tatoo._G3_ Tatoo G3
+clothes_quality Qualité de la Tenue
+clothes_quality.b Basique
+clothes_quality.m Moyenne
+clothes_quality.h Haute
+clothes_color Couleur de la Tenue
+clothes_color.r Rouge
+clothes_color.e Beige
+clothes_color.g Vert
+clothes_color.t Turquoise
+clothes_color.b Bleu
+clothes_color.p Rose
+clothes_color.w Blanc
+clothes_color.k Noir
+save Valider
+random Au Hasard

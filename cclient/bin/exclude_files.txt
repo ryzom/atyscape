@@ -1,0 +1,11 @@
+exclude_files.txt
+atyscape_rd.pdb
+CEGUI.log
+debug_atyscape.cfg
+log.log
+RCX723.tmp
+RCXE4.tmp
+debug_list.cfg
+run.bat
+NelCEGui.dll
+atyscape.cfg_

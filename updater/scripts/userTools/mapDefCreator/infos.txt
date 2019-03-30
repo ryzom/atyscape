@@ -1,0 +1,5 @@
+map_def_creator.exe
+
+Map Def Creator
+
+Générer des parametres afin de pouvoir importer une map de Ryry dans Ryturn

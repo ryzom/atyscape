@@ -1,0 +1,8 @@
+ImageRef : Image : 
+Title : ImageMapTool - Ryturn User Tool
+Create : Create
+Ban : ImageMapTool\n-\nRyturn Project (2008)
+ImageMap : Image Map : 
+Select : Select
+AltImageCreator : Alternative Images Creator
+DDFInit : Initialisation of DDF file

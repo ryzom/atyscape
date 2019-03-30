@@ -1,0 +1,31 @@
+{DragAndDropAvatar
+Attrapez l'un de vos Avatar et mettez le dans le tonneau à droite.
+Le tonneau à droite donne acces à l'écorce. Mettez-y un de vos Avatars ;)
+Savez-vous qu'un ingénieur fou à fait d'un simple tonneau une porte vers Atys? Placez-y votre Avatar :)
+Ne cherchez plus la sortie, c'est le tonneau à droite. Votre Avatar s'y sentira bien :)
+}
+
+{ChangeNewAvatar
+Vous preferez creer un nouvel avatar? La famille va s'agrandir ;)
+}
+
+{ChangeAvatar
+Vous avez raison, celui-ci conviens mieux :)
+Ah là oui !!! Je suis d'accord pour envoyer celui-ci sur Atys!!!
+}
+
+{NewAvatar
+Un homin indéfini! Cliquez sur la yubette et donnez lui vie !!!
+Vous êtes bien parti pour faire un nouvel homin ;) Cliquez sur la yubette à droite
+}
+
+{AvatarReady
+Il est prêt à faire le grand voyage vers Atys ! Cliquez sur la yubette et partez à l'aventure!!!
+Yubette? Prête? Cliquez lui dessus, elle n'attend que ça :P
+}
+
+{AvatarRemoved
+Il n'était surement pas pret ;)
+Ce n'était pas lui l'élu.
+Il vaux mieux qu'il reste ici au chaud :)
+}

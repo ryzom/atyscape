@@ -1,0 +1,88 @@
+{IDLE
+IDLE2 fy_hom_idle2_to_idle 1 IDLE 100
+IDLE21 fy_hom_idle2_to_idle 1 IDLE 100
+IDLE22 fy_hom_idle2_to_idle 1 IDLE 100
+IDLE23 fy_hom_idle2_to_idle 1 IDLE 100
+IDLE3 fy_hom_idle3_to_idle 1 IDLE 100
+IDLE31 fy_hom_idle3_to_idle 1 IDLE 100
+IDLE32 fy_hom_idle3_to_idle 1 IDLE 100
+IDLE33 fy_hom_idle3_to_idle 1 IDLE 100
+RUN fy_hom_walk_to_idle 1 IDLE 100
+* fy_hom_idle 1 IDLE_SWITCH 100
+}
+
+{IDLE_SWITCH
+* - 1 IDLE1 75 IDLE2 10 IDLE3 10 IDLE_MALAUCOU 5
+}
+
+{IDLE_MALAUCOU
+* fy_hom_idle_malaucou 1 IDLE 100
+}
+
+{IDLE1
+* fy_hom_idle 1 IDLE 100
+}
+
+{IDLE2
+IDLE_SWITCH fy_hom_idle_to_idle2 1 IDLE2 100
+IDLE3 fy_hom_idle3_to_idle2 1 IDLE2 100
+* fy_hom_idle2 1 IDLE21 33 IDLE22 33 IDLE23 34
+}
+
+{IDLE21
+IDLE2 fy_hom_idle2 1 IDLE21 100
+IDLE21 fy_hom_idle2 1 IDLE 100
+* fy_hom_idle2_attitude1 1 IDLE21 70 IDLE2 30
+}
+
+{IDLE22
+IDLE2 fy_hom_idle2 1 IDLE22 100
+IDLE22 fy_hom_idle2 1 IDLE 100
+* fy_hom_idle2_attitude2 1 IDLE22 70 IDLE2 30
+}
+
+{IDLE23
+IDLE2 fy_hom_idle2 1 IDLE23 100
+IDLE23 fy_hom_idle2 1 IDLE 100
+* fy_hom_idle2_attitude3 1 IDLE23 70 IDLE2 30
+}
+
+{IDLE3
+IDLE_SWITCH fy_hom_idle_to_idle3 1 IDLE3 100
+IDLE2 fy_hom_idle2_to_idle3 1 IDLE2 100
+* fy_hom_idle3 1 IDLE31 33 IDLE32 33 IDLE33 34
+}
+
+{IDLE31
+IDLE3 fy_hom_idle3 1 IDLE31 100
+IDLE31 fy_hom_idle3 1 IDLE 100
+* fy_hom_idle3_attitude1 1 IDLE31 70 IDLE3 30
+}
+
+{IDLE32
+IDLE3 fy_hom_idle3 1 IDLE32 100
+IDLE32 fy_hom_idle3 1 IDLE 100
+* fy_hom_idle3_attitude2 1 IDLE32 70 IDLE3 30
+}
+
+{IDLE33
+IDLE3 fy_hom_idle3 1 IDLE33 100
+IDLE33 fy_hom_idle3 1 IDLE 100
+* fy_hom_idle3_attitude3 1 IDLE33 70 IDLE3 30
+}
+
+{RUN
+IDLE2 fy_hom_idle_to_walk 1 RUN 100
+IDLE21 fy_hom_idle_to_walk 1 RUN 100
+IDLE22 fy_hom_idle_to_walk 1 RUN 100
+IDLE23 fy_hom_idle_to_walk 1 RUN 100
+IDLE3 fy_hom_idle_to_walk 1 RUN 100
+IDLE31 fy_hom_idle_to_walk 1 IRUN 100
+IDLE32 fy_hom_idle_to_walk 1 RUN 100
+IDLE33 fy_hom_idle_to_walk 1 RUN 100
+* fy_hom_course 1 RUN 100
+}
+
+{WALK
+* fy_hom_marche 1 WALK 100
+}

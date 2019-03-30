@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUILayout>
+    <Window Type="DefaultWindow" Name="Root">
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="QuadraticLook/FrameWindow" Name="SR/Window" >
+        <Property Name="Text" Value="Select an Region" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.05,0},{0.46,0},{0.55,0}}" />
+            <Window Type="QuadraticLook/PopupMenu" Name="SR/Popup" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.10,0},{0.46,0},{0.55,0}}" />
+                <Window Type="QuadraticLook/MenuItem">
+                    <Property Name="Text" Value="Listbox Item 1" />
+                </Window>
+                <Window Type="QuadraticLook/MenuItem">
+                    <Property Name="Text" Value="Listbox Item 1" />
+                </Window>
+                <Window Type="QuadraticLook/MenuItem">
+                <Property Name="Text" Value="Listbox Item 1" />
+                    <Window Type="QuadraticLook/PopupMenu" Name="SR/Popup2" >
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.10,0},{0.46,0},{0.55,0}}" />
+                        <Window Type="QuadraticLook/MenuItem">
+                            <Property Name="Text" Value="Listbox Item 1" />
+                        </Window>
+                        <Window Type="QuadraticLook/MenuItem">
+                            <Property Name="Text" Value="Listbox Item 1" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>        
+    </Window>
+</GUILayout>

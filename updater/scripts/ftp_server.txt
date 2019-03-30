@@ -1,0 +1,3 @@
+server = 88.191.80.240
+port = 21
+login = ulukyn

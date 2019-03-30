@@ -1,0 +1,5 @@
+et dans le dossier trunk :
+rm CMakeCache.txt
+   mkdir cmake
+   cd cmake
+   cmake -G \"Unix Makefiles\" ..

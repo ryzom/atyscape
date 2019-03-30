@@ -1,0 +1,11 @@
+exclude_files.txt
+python
+RevoltLook.imageset
+RevoltLook.tga
+SleekSpace.tga
+TaharezLook.imageset
+TaharezLook.tga
+WindowsLook.imageset
+WindowsLook.tga
+sleekspace.imageset
+sleekspace.png

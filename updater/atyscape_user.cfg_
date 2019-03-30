@@ -1,0 +1,7 @@
+screenResolution : ?
+driver3D : DirectX
+currentVersion : 0.9.0
+datapath : UNDEFINED
+gameMode : GetGraphicModes
+fullscreen : no
+

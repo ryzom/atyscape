@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atyscape", "atys9.vcproj", "{4EADBDFA-7774-4966-9C97-0F22B6D40004}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3} = {9D479638-66E6-40C1-8236-1CD322D8EAC3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NelCEGui", "..\..\..\nel\nel\src\cegui.vcproj", "{9D479638-66E6-40C1-8236-1CD322D8EAC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugFast|Win32 = DebugFast|Win32
+		DebugInstrument|Win32 = DebugInstrument|Win32
+		DebugStatic|Win32 = DebugStatic|Win32
+		Generate config file parser|Win32 = Generate config file parser|Win32
+		Release|Win32 = Release|Win32
+		ReleaseDebug|Win32 = ReleaseDebug|Win32
+		ReleaseDebugStatic|Win32 = ReleaseDebugStatic|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.Debug|Win32.Build.0 = Debug|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.DebugFast|Win32.ActiveCfg = DebugFast|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.DebugFast|Win32.Build.0 = DebugFast|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.DebugInstrument|Win32.ActiveCfg = DebugStatic|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.DebugInstrument|Win32.Build.0 = DebugStatic|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.DebugStatic|Win32.ActiveCfg = DebugStatic|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.DebugStatic|Win32.Build.0 = DebugStatic|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.Generate config file parser|Win32.ActiveCfg = ReleaseDebugStatic|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.Generate config file parser|Win32.Build.0 = ReleaseDebugStatic|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.Release|Win32.ActiveCfg = Release|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.Release|Win32.Build.0 = Release|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.ReleaseDebug|Win32.ActiveCfg = ReleaseDebug|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.ReleaseDebug|Win32.Build.0 = ReleaseDebug|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.ReleaseDebugStatic|Win32.ActiveCfg = ReleaseDebugStatic|Win32
+		{4EADBDFA-7774-4966-9C97-0F22B6D40004}.ReleaseDebugStatic|Win32.Build.0 = ReleaseDebugStatic|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.Debug|Win32.Build.0 = Debug|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.DebugFast|Win32.ActiveCfg = Debug|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.DebugFast|Win32.Build.0 = Debug|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.DebugInstrument|Win32.ActiveCfg = Debug|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.DebugInstrument|Win32.Build.0 = Debug|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.DebugStatic|Win32.ActiveCfg = Debug|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.DebugStatic|Win32.Build.0 = Debug|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.Generate config file parser|Win32.ActiveCfg = Release|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.Generate config file parser|Win32.Build.0 = Release|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.Release|Win32.ActiveCfg = Release|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.Release|Win32.Build.0 = Release|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.ReleaseDebug|Win32.ActiveCfg = Release|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.ReleaseDebug|Win32.Build.0 = Release|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.ReleaseDebugStatic|Win32.ActiveCfg = Release|Win32
+		{9D479638-66E6-40C1-8236-1CD322D8EAC3}.ReleaseDebugStatic|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

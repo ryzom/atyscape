@@ -1,0 +1,559 @@
+// Path of Ryzom's "data" folder
+RyzomDataPath = "%%RyzomDataPath%%";
+ScreenH = "%%ScreenH%%";
+ScreenV = "%%ScreenV%%";
+Depth = "32";
+FullScreen = "%%FullScreen%%";
+Driver3D = "%%Driver3D%%";
+GameMode = %%GameMode%%";
+Season = "su"; // "su", "au", "wi" or "sp";
+SunDirection = { -3.7, 0.1, -1.7 };
+Avatar_List = "user/avatars/list.cfg";
+Music_Make_Avatar = "Loading Music Loop.ogg";
+Music_Atyscape = "Main Theme Air.ogg";
+Music_Select_Avatar = "Main Menu Loop.ogg";
+Music_Intro = "data/custom/music/Capricer__Guerre_spatiale.ogg";
+
+////////////////////////////////////// // Configuration of interest points  //////////////////////////////////////
+
+Regions = { "Fyros", "Matis", "Tryker", "Zorai", "Nexus", "Primes1", "Primes2", "Primes3", "Primes4", "Event1", "Event2", "Event3", "Event4", "Fyros_Newbie", "Matis_Newbie", "Tryker_Newbie", "Zorai_Newbie", "Silan" };
+
+Fyros_Bank = "desert";
+Fyros_MVG = "fyros";
+Fyros_Pacs = "fyros";
+Fyros_IGBNP = "fyros_ig.bnp";
+Fyros_Points = { "PYR1", "PYR2", "DYR1", "DYR2", "OFLO1", "OFLO2", "TF1", "TF2", "MS1", "MS2", "CI1", "CI2", "CB1", "CB2", "THE1", "THE2", "OSK" };
+
+Matis_Bank = "jungle";
+Matis_MVG = "jungle";
+Matis_Pacs = "matis";
+Matis_IGBNP = "matis_ig.bnp";
+Matis_Points = { "YRK1", "YRK2", "NAT", "DAV", "AVA", "JF1", "JF2", "MS1", "MS2", "TD1", "TD2", "MH1", "MH2", "SC1", "SC2", "DMM", "BC1", "BC2", "GM" };
+
+Tryker_Bank = "lacustre";
+Tryker_MVG = "tryker";
+Tryker_Pacs = "tryker";
+Tryker_IGBNP = "tryker_ig.bnp";
+Tryker_Points = { "FH1", "FH2", "AV", "CRY", "WIN", "CDR1", "CDR2", "VDS1", "VDS2", "EDR1", "EDR2", "SRC1", "SRC2", "IE1", "IE2", "PDA1", "PDA2", "LOR1", "LOR2" };
+
+Zorai_Bank = "jungle";
+Zorai_MVG = "jungle";
+Zorai_Pacs = "zorai";
+Zorai_IGBNP = "zorai_ig.bnp";
+Zorai_Points = { "ZORA1", "ZORA2", "JEN", "HOI", "MIN", "BV1", "BV2", "MG", "HP1", "HP2", "ND1", "ND2", "DSZ", "BO1", "BO2", "VIDE1", "VIDE2" };
+
+Nexus_Bank = "jungle";
+Nexus_MVG = "jungle";
+Nexus_Pacs = "nexus";
+Nexus_IGBNP = "nexus_ig.bnp";
+Nexus_Points = { "NEX1", "NEX2", "FDEST" };
+
+Primes1_Bank = "primeracines";
+Primes1_MVG = "prime_roots";
+Primes1_Pacs = "sources_interdites";
+Primes1_IGBNP = "sources_ig.bnp";
+Primes1_Points = { "SRCINT1", "SRCINT2" };
+
+Primes2_Bank = "primeracines";
+Primes2_MVG = "prime_roots";
+Primes2_Pacs = "terre_oubliee";
+Primes2_IGBNP = "terre_ig.bnp";
+Primes2_Points = { "CITEN1", "CITEN2", "TERCON1", "TERCON2", "PRINT1", "PRINT2", "TER", "KIT", "KI" };
+
+Primes3_Bank = "primeracines";
+Primes3_MVG = "prime_roots";
+Primes3_Pacs = "route_gouffre";
+Primes3_IGBNP = "route_gouffre_ig.bnp";
+Primes3_Points = { "PDV1", "PDV2", "FTROMP1", "FTROMP2", "PDO1", "PDO2", "FOS1", "FOS2" };
+
+Primes4_Bank = "primeracines";
+Primes4_MVG = "prime_roots";
+Primes4_Pacs = "bagne";
+Primes4_IGBNP = "bagne_ig.bnp";
+Primes4_Points = { "GOU1", "GOU2" };
+
+Event1_Bank = "desert";
+Event1_MVG = "fyros";
+Event1_Pacs = "fyros_island";
+Event1_IGBNP = "fyros_island_ig.bnp";
+Event1_Points = { "ETF1", "ETF2", "DDA" };
+
+Event2_Bank = "jungle";
+Event2_MVG = "jungle";
+Event2_Pacs = "matis_island";
+Event2_IGBNP = "matis_island_ig.bnp";
+Event2_Points = { "BAL", "ETM2", "ETM3" };
+
+Event3_Bank = "lacustre";
+Event3_MVG = "tryker";
+Event3_Pacs = "tryker_island";
+Event3_IGBNP = "tryker_island_ig.bnp";
+Event3_Points = { "ETT1", "ETT2", "ETT3", "LDO", "ETT5" };
+
+Event4_Bank = "jungle";
+Event4_MVG = "jungle";
+Event4_Pacs = "zorai_island";
+Event4_IGBNP = "zorai_island_ig.bnp";
+Event4_Points = { "ETZ1", "ETZ2", "ETZ3", "ETZ4" };
+
+Fyros_Newbie_Bank = "desert";
+Fyros_Newbie_MVG = "fyros";
+Fyros_Newbie_Pacs = "fyros_newbie";
+Fyros_Newbie_IGBNP = "fyros_newbie_ig.bnp";
+Fyros_Newbie_Points = { "SEKOVIX", "GALEMUS", "KAEMON", "AEGUS", "PHYXON" };
+
+Matis_Newbie_Bank = "jungle";
+Matis_Newbie_MVG = "jungle";
+Matis_Newbie_Pacs = "matis";
+Matis_Newbie_IGBNP = "matis_ig.bnp";
+Matis_Newbie_Points = { "NISTIA", "STALLI", "BOREA", "MIANI", "ROSILIO" };
+
+Tryker_Newbie_Bank = "lacustre";
+Tryker_Newbie_MVG = "tryker";
+Tryker_Newbie_Pacs = "tryker_newbie";
+Tryker_Newbie_IGBNP = "tryker_newbie_ig.bnp";
+Tryker_Newbie_Points = { "HOBWELLY", "DINGLETON", "BARKDELL", "AUBERMOUTH", "WAVERTON" };
+
+Zorai_Newbie_Bank = "jungle";
+Zorai_Newbie_MVG = "jungle";
+Zorai_Newbie_Pacs = "zorai";
+Zorai_Newbie_IGBNP = "zorai_ig.bnp";
+Zorai_Newbie_Points = { "NENXING", "YINPIANG", "SHENGWO", "QAILO", "KOIZUN" };
+
+Silan_Bank = "jungle";
+Silan_MVG = "jungle";
+Silan_Pacs = "newbieland";
+Silan_IGBNP = "newbieland_ig.bnp";
+Silan_Points = { "SIL" };
+
+// Each point is X,Y,Z,Heading,Attitude
+
+// Lacs
+
+FH1_Data = { 17245.0, -32920.0, -0.6, 0.0, -0.2 };
+FH1_Name = "Fairhaven (Karavan)";
+
+FH2_Data = { 17410.0, -32830.0, 18.4, 0.0, -0.2 };
+FH2_Name = "Fairhaven (Kami)";
+
+AV_Data = { 18160.0, -31136.0, -1.0, 0.0, -0.2 };
+AV_Name = "Avendale";
+
+CRY_Data = { 17776.0, -31866.0, 1.9, 0.0, -0.2 };
+CRY_Name = "Crystabell";
+
+WIN_Data = { 15600.0, -33020.0, -0.8, 0.0, -0.2 };
+WIN_Name = "Windermeer";
+
+CDR1_Data = { 16990.0, -31485.0, 1.0, 0.0, -0.2 };
+CDR1_Name = "Chutes de la Rosee (Karavan)";
+
+CDR2_Data = { 16670.0, -31720.0, -1.8, 0.0, -0.2 };
+CDR2_Name = "Chutes de la Rosee (Kami)";
+
+VDS1_Data = { 15495.0, -30470.0, -2.7, 0.0, -0.2 };
+VDS1_Name = "Vents du Songe (Karavan)";
+
+VDS2_Data = { 15345.0, -29805.0, -0.5, 0.0, -0.2 };
+VDS2_Name = "Vents du Songe (Kami)";
+
+EDR1_Data = { 16490.0, -33665.0, -0.1, 0.0, -0.2 };
+EDR1_Name = "Eaux du Repos (Karavan)";
+
+EDR2_Data = { 15965.0, -33790.0, 3.0, 0.0, -0.2 };
+EDR2_Name = "Eaux du Repos (Kami)";
+
+SRC1_Data = { 15090.0, -34415.0, 0.2, 0.0, -0.2 };
+SRC1_Name = "Source (Karavan)";
+
+SRC2_Data = { 14715.0, -34830.0, 0.7, 0.0, -0.2 };
+SRC2_Name = "Source (Kami)";
+
+IE1_Data = { 17845.0, -33915.0, -3.0, 0.0, -0.2 };
+IE1_Name = "Ile Enchantee (Karavan)";
+
+IE2_Data = { 18520.0, -34480.0, 1.3, 0.0, -0.2 };
+IE2_Name = "Ile Enchantee (Kami)";
+
+PDA1_Data = { 14660.0, -32430.0, 0.0, 0.0, -0.2 };
+PDA1_Name = "Plage d'Abondance (Karavan)";
+
+PDA2_Data = { 14380.0, -31575.0, 0.5, 0.0, -0.2 };
+PDA2_Name = "Plage d'Abondance (Kami)";
+
+LOR1_Data = { 19145.0, -29680.0, 0.9, 0.0, -0.2 };
+LOR1_Name = "Lagon de Loria (Karavan)";
+
+LOR2_Data = { 19295.0, -32030.0, 1.0, 0.0, -0.2 };
+LOR2_Name = "Lagon de Loria (Kami)";
+
+// Desert
+
+PYR1_Data = { 18725.0, -24940.0, 1.5, 50.0, 0.0, -0.2 };
+PYR1_Name = "Pyr (Karavan)";
+
+PYR2_Data = { 18870.0, -24370.0, -5.1, 50.0, 0.0, -0.2 };
+PYR2_Name = "Pyr (Kami)";
+
+OFLO1_Data = { 17500.0, -25320.0, 13.4, 0.0, 0.0 };
+OFLO1_Name = "Oasis d'Oflovak (Karavan)";
+
+OFLO2_Data = { 17905.0, -25330.0, 1.8, 0.0, 0.0 };
+OFLO2_Name = "Oasis d'Oflovak (Kami)";
+
+TF1_Data = { 17120.0, -25915.0, 1.7, 0.0, 0.0 };
+TF1_Name = "Tours de Frahars (Karavan)";
+
+TF2_Data = { 17115.0, -25145.0, 6.1, 0.0, 0.0 };
+TF2_Name = "Tours de Frahars (Kami)";
+
+MS1_Data = { 20015.0, -25530.0, 0.9, 50.0, 0.0, -0.2 };
+MS1_Name = "Mine de Sciure (Karavan)";
+
+MS2_Data = { 20170.0, -25015.0, 0.6, 50.0, 0.0, -0.2 };
+MS2_Name = "Mine de Sciure (Kami)";
+
+DYR1_Data = { 16145.0, -24545.0, -12.1, 0.0, -0.2 };
+DYR1_Name = "Dyron (Karavan)";
+
+DYR2_Data = { 16680.0, -24645.0, 1.6, 0.0, -0.2 };
+DYR2_Name = "Dyron (Kami)";
+
+THE1_Data = { 16060.0, -26015.0, 2.6, 50.0, 0.0, -0.2 };
+THE1_Name = "Thesos (Kami)";
+
+THE2_Data = { 19450.0, -26270.0, 4.4, 50.0, 0.0, -0.2 };
+THE2_Name = "Thesos (Kami)";
+
+CB1_Data = { 18440.0, -26505.0, -49.0, 0.0, -0.2 };
+CB1_Name = "Couloir Brule (Karavan)";
+
+CB2_Data = { 17610.0, -26190.0, -51.0, 0.0, -0.2 };
+CB2_Name = "Couloir Brule (Kami)";
+
+CI1_Data = { 19230.0, -25220.0, -49.0, 50.0, 0.0, -0.2 };
+CI1_Name = "Canyon Interdit (Karavan)";
+
+CI2_Data = { 18860.0, -25355.0, -50.0, 50.0, 0.0, -0.2 };
+CI2_Name = "Canyon Interdit (Kami)";
+
+OSK_Data = { 17623.0, -26328.0, -43.0, 0.0, -0.2 };
+OSK_Name = "Oasis Secrete des Kami";
+
+
+// Foret
+
+YRK1_Data = { 4675.0, -3335.0, -8.1, 0.0, -0.2 };
+YRK1_Name = "Yrkanis (Karavan)";
+
+YRK2_Data = { 4625.0, -3115.0, -8.0, 0.0, 0.0 };
+YRK2_Name = "Yrkanis (Kami)";
+
+NAT_Data = { 3795.0, -3775.0, -8.3, 0.0, 0.0 };
+NAT_Name = "Natae";
+
+DAV_Data = { 4260.0, -4150.0, -8.2, 0.0, 0.0 };
+DAV_Name = "Davae";
+
+AVA_Data = { 4830.0, -4350.0, -8.2, 0.0, 0.0 };
+AVA_Name = "Avalae";
+
+JF1_Data = { 4880.0, -6020.0, -63.6, 0.0, 0.0 };
+JF1_Name = "Jardin Fugace (Karavan)";
+
+JF2_Data = { 6085.0, -5965.0, -67.3, 0.0, 0.0 };
+JF2_Name = "Jardin Fugace (Kami)";
+
+MS1_Data = { 3540.0, -5530.0, -66.2, 0.0, 0.0 };
+MS1_Name = "Marais Superieur (Karavan)";
+
+MS2_Data = { 3440.0, -6135.0, -64.8, 0.0, 0.0 };
+MS2_Name = "Marais Superieur (Kami)";
+
+TD1_Data = { 2165.0, -2435.0, -12.4, 0.0, 0.0 };
+TD1_Name = "Tertre de la Dissidence (Karavan)";
+
+TD2_Data = { 2455.0, -1350.0, -2.4, 0.0, 0.0 };
+TD2_Name = "Tertre de la Dissidence (Kami)";
+
+SC1_Data = { 405.0, -815.0, 52.5, 0.0, 0.0 };
+SC1_Name = "Source Cachee (Karavan)";
+
+SC2_Data = { 950.0, -480.0, 51.0, 0.0, 0.0 };
+SC2_Name = "Source Cachee (Kami)";
+
+VIR_Data = { 1330.0, -895.0, 50.6, 0.0, 0.0 };
+VIR_Name = "Chutes Virginia";
+
+DMM_Data = { 2077.0, -1887.0, 25.0, 0.0, 0.0 };
+DMM_Name = "Montee Source Cachee";
+
+BC1_Data = { 4515.0, -1625.0, -67.0, 0.0, 0.0 };
+BC1_Name = "Bosquet de la Confusion (Karavan)";
+
+BC2_Data = { 4090.0, -1260.0, -67.3, 0.0, 0.0 };
+BC2_Name = "Bosquet de la confusion (Kami)";
+
+MH1_Data = { 5145.0, -7720.0, -84.1, 0.0, 0.0 };
+MH1_Name = "Masure de l'Heretique (Karavan)";
+
+MH2_Data = { 5845.0, -7615.0, -67.3, 0.0, 0.0 };
+MH2_Name = "Masure de l'Heretique (Kami)";
+
+GM_Data = { 1796.0, -5001.0, -9.0, 0.0, 0.0 };
+GM_Name = "Iles des GMs";
+
+
+// Jungle
+
+ZORA1_Data = { 8705.0, -3215.0, -75.7, 0.0, 0.0 };
+ZORA1_Name = "Zora (Karavan)";
+
+ZORA2_Data = { 8770.0, -2960.0, -75.9, 0.0, 0.0 };
+ZORA2_Name = "Zora (Kami)";
+
+JEN_Data = { 8800.0, -3720.0, -73.0, 0.0, 0.0 };
+JEN_Name = "Jen-Lai";
+
+HOI_Data = { 9625.0, -3435.0, -85.1, 0.0, 0.0 };
+HOI_Name = "Hoi-Cho";
+
+MIN_Data = { 10000.0, -4335.0, -77.9, 0.0, 0.0 };
+MIN_Name = "Min-Cho";
+
+BV1_Data = { 12090.0, -3265.0, -75.5, 0.0, 0.0 };
+BV1_Name = "Bosquet Vierge (Karavan)";
+
+BV2_Data = { 11955.0, -3385.0, -76.6, 0.0, 0.0 };
+BV2_Name = "Bosquet Vierge (Kami)";
+
+MG_Data = { 10478.0, -3492.0, -77.0, 0.0, 0.0 };
+MG_Name = "Main Geante";
+
+HP1_Data = { 9430.0, -1965.0, -77.0, 0.0, 0.0 };
+HP1_Name = "Havre de Purete (Karavan)";
+
+HP2_Data = { 9700.0, -2550.0, -75.9, 0.0, 0.0 };
+HP2_Name = "Havre de Purete (Kami)";
+
+ND1_Data = { 8410.0, -1470.0, -77.0, 0.0, 0.0 };
+ND1_Name = "Noeud de la Demence (Karavan)";
+
+ND2_Data = { 8075.0, -2270.0, -79.0, 0.0, 0.0 };
+ND2_Name = "Noeud de la Demence (Kami)";
+
+DSZ_Data = { 7415.0, -2115.0, -12.5, 0.0, 0.0 };
+DSZ_Name = "Desertstock";
+
+BO1_Data = { 11970.0, -5345.0, -8.7, 0.0, 0.0 };
+BO1_Name = "Bosquet de l'Ombre (Karavan)";
+
+BO2_Data = { 10965.0, -4515.0, -76.8, 0.0, 0.0 };
+BO2_Name = "Bosquet de l'Ombre (Kami)";
+
+VIDE1_Data = { 11560.0, -1710.0, -11.5, 0.0, 0.0 };
+VIDE1_Name = "Vide (Karavan)";
+
+VIDE2_Data = { 10800.0, -1950.0, -12.1, 0.0, 0.0 };
+VIDE2_Name = "Vide (Kami)";
+
+
+// Nexus
+
+NEX1_Data = { 8395.0, -6645.0, 7.9, 0.0, -0.2 };
+NEX1_Name = "Nexus Mineur (Karavan)";
+
+NEX2_Data = { 9400.0, -7290.0, 8.6, 0.0, -0.2 };
+NEX2_Name = "Nexus Mineur (Kami)";
+
+FDEST_Data = { 9114.0, -6977.0, 32.0, 0.0, -0.2 };
+FDEST_Name = "Fin de la Destinee";
+
+
+// Primes Racines
+
+SRCINT1_Data = { 2605.0, -10745.0, 4.7, 0.0, 0.0 };
+SRCINT1_Name = "Sources Interdites (Karavan)";
+
+SRCINT2_Data = { 3615.0, -10110.0, 1.7, 0.0, 0.0 };
+SRCINT2_Name = "Sources Interdites (Kami)";
+
+PRINT1_Data = { 1425.0, -14660.0, 0.6, 0.0, 0.0 };
+PRINT1_Name = "Profondeurs Interdites (Karavan)";
+
+PRINT2_Data = { 2675.0, -14695.0, 5.6, 0.0, 0.0 };
+PRINT2_Name = "Profondeurs Interdites (Kami)";
+
+TERCON1_Data = { 400.0, -13360.0, -2.7, 0.0, 0.0 };
+TERCON1_Name = "Terre de la Continuite (Karavan)";
+
+TERCON2_Data = { 1070.0, -13820.0, -2.3, 0.0, 0.0 };
+TERCON2_Name = "Terre de la Continuite (Kami)";
+
+CITEN1_Data = { 1845.0, -13835.0, 0.1, 0.0, 0.0 };
+CITEN1_Name = "Cite Engloutie (Karavan)";
+
+CITEN2_Data = { 2120.0, -14075.0, 1.0, 0.0, 0.0 };
+CITEN2_Name = "Cite Engloutie (Kami)";
+
+TER_Data = { 1615.0, -14400.0, 1.5, 0.0, 0.0 };
+TER_Name = "Terres abandonnees (Point du Milieu)";
+
+KIT_Data = { 2414.0, -16529.0, -99.0, 0.0, 0.0 };
+KIT_Name = "Kitiniere";
+
+KI_Data = { 2742.0, -17127.0, -56.0, 0.0, 0.0 };
+KI_Name = "Kitiniere2";
+
+PDV1_Data = { 5860.0, -9725.0, 7.1, 0.0, 0.0 };
+PDV1_Name = "Porte des Vents (Karavan)";
+
+PDV2_Data = { 6170.0, -10705.0, 1.7, 0.0, 0.0 };
+PDV2_Name = "Porte des Vents (Kami)";
+
+FTROMP1_Data = { 6675.0, -12070.0, -0.8, 0.0, 0.0 };
+FTROMP1_Name = "Foret Trompeuse (Karavan)";
+
+FTROMP2_Data = { 5660.0, -12330.0, 2.8, 0.0, 0.0 };
+FTROMP2_Name = "Foret Trompeuse (Kami)";
+
+PDO1_Data = { 6660.0, -13830.0, 4.1, 0.0, 0.0 };
+PDO1_Name = "Porte de l'Obscurite (Karavan)";
+
+PDO2_Data = { 6825.0, -14840.0, -1.4, 0.0, 0.0 };
+PDO2_Name = "Porte de l'Obscurite (Kami)";
+
+FOS1_Data = { 6950.0, -16240.0, -2.0, 0.0, 0.0 };
+FOS1_Name = "Fosse aux Epreuves (Karavan)";
+
+FOS2_Data = { 5965.0, -15735.0, -2.1, 0.0, 0.0 };
+FOS2_Name = "Fosse aux Epreuves (Kami)";
+
+GOU1_Data = { 1005.0, -10485.0, 6.7, 0.0, 0.0 };
+GOU1_Name = "Gouffre d'Ichor (Karavan)";
+
+GOU2_Data = { 1530.0, -10605.0, 0.2, 0.0, 0.0 };
+GOU2_Name = "Gouffre d'Ichor (Kami)";
+
+// Event des Temples
+
+BAL_Data = { 14789.0, -911.0, -8.0, 0.0, -0.2 };
+BAL_Name = "Bois d Almati";
+
+ETM2_Data = { 16237.0, -1060.0, 49.0, 0.0, -0.2 };
+ETM2_Name = "Ile Matis 2";
+
+ETM3_Data = { 17284.0, -950.0, 1.0, 0.0, -0.2 };
+ETM3_Name = "Ile Matis 3";
+
+
+ETF1_Data = { 21703.0, -24412.0, 77.0, 0.0, -0.2 };
+ETF1_Name = "Ile Fyros 1";
+
+ETF2_Data = { 23099.0, -24112.0, 60.0, 0.0, -0.2 };
+ETF2_Name = "Ile Fyros 2";
+
+DDA_Data = { 25309.0, -24140.0, 81.0, 0.0, -0.2 };
+DDA_Name = "Dune D Aelius";
+
+
+ETT1_Data = { 21535.0, -29694.0, -5.0, 0.0, -0.2 };
+ETT1_Name = "Ile Tryker 1";
+
+ETT2_Data = { 22387.0, -29981.0, -2.0, 0.0, -0.2 };
+ETT2_Name = "Ile Tryker 2";
+
+ETT3_Data = { 23954.0, -29841.0, -7.0, 0.0, -0.2 };
+ETT3_Name = "Ile Tryker 3";
+
+LDO_Data = { 25278.0, -30063.0, 12.0, 0.0, -0.2 };
+LDO_Name = "Lac Olkern";
+
+ETT5_Data = { 26691.0, -29934.0, 16.0, 0.0, -0.2 };
+ETT5_Name = "Ile Tryker 5";
+
+
+ETZ1_Data = { 14317.0, -4118.0, 2.0, 0.0, -0.2 };
+ETZ1_Name = "Ile Zorai 1";
+
+ETZ2_Data = { 14962.0, -4217.0, 2.0, 0.0, -0.2 };
+ETZ2_Name = "Ile Zorai 2";
+
+ETZ3_Data = { 17072.0, -3915.0, 2.0, 0.0, -0.2 };
+ETZ3_Name = "Ile Zorai 3";
+
+ETZ4_Data = { 18264.0, -4142.0, 2.0, 0.0, -0.2 };
+ETZ4_Name = "Ile Zorai 4";
+
+// Fyros Newbies Lands
+
+SEKOVIX_Data = { 22480.0, -25535.0, 62.2, 0.0, -0.2 };
+SEKOVIX_Name = "Sekovix (Nord-Est)";
+
+GALEMUS_Data = { 22795.0, -26640.0, 63.2, 0.0, -0.2 };
+GALEMUS_Name = "Galemus (Sud-Est)";
+
+KAEMON_Data = { 22005.0, -26165.0, 62.1, 0.0, -0.2 };
+KAEMON_Name = "Kaemon (Centre)";
+
+AEGUS_Data = { 21195.0, -25525.0, 64.0, 0.0, -0.2 };
+AEGUS_Name = "Aegus (Nord-Ouest)";
+
+PHYXON_Data = { 21525.0, -26645.0, 62.5, 0.0, -0.2 };
+PHYXON_Name = "Phyxon (Sud-Ouest)";
+
+// Tryker Newbies Land
+
+HOBWELLY_Data = { 22800.0, -33520.0, 1.4, 0.0, -0.2 };
+HOBWELLY_Name = "Hobewelly (Nord-Est)";
+
+DINGLETON_Data = { 22645.0, -34610.0, 0.1, 0.0, -0.2 };
+DINGLETON_Name = "Dingleton (Sud-Est)";
+
+BARKDELL_Data = { 22160.0, -33865.0, 0.1, 0.0, -0.2 };
+BARKDELL_Name = "Barkdell (Centre)";
+
+AUBERMOUTH_Data = { 21205.0, -33840.0, 0.1, 0.0, -0.2 };
+AUBERMOUTH_Name = "Aubermouth (Nord-Ouest)";
+
+WAVERTON_Data = { 21340.0, -34610.0, 0.1, 0.0, -0.2 };
+WAVERTON_Name = "Waverton (Sud-Ouest)";
+
+// Zorai Newbies Land
+
+NENXING_Data = { 8405.0, -4525.0, -16.4, 0.0, -0.2 };
+NENXING_Name = "Nen-Xing (Nord-Est)";
+
+YINPIANG_Data = { 8420.0, -5220.0, -13.7, 0.0, -0.2 };
+YINPIANG_Name = "Yin-Piang (Sud-Est)";
+
+SHENGWO_Data = { 7765.0, -4870.0, -13.7, 0.0, -0.2 };
+SHENGWO_Name = "Sheng-Wo (Centre)";
+
+QAILO_Data = { 7285.0, -4400.0, -17.8, 0.0, -0.2 };
+QAILO_Name = "Qai-Lo (Nord-Ouest)";
+
+KOIZUN_Data = { 7430.0, -5380.0, -12.1, 0.0, -0.2 };
+KOIZUN_Name = "Koi-Zun (Sud-Ouest)";
+
+// Matis Newbies Land
+
+NISTIA_Data = { 2158.0, -6632.0, -71.3, 0.0, -0.2 };
+NISTIA_Name = "Nistia (Nord-Est)";
+
+STALLI_Data = { 1840.0, -7100.0, -72.3, 0.0, -0.2 };
+STALLI_Name = "Stalli (Sud-Est)";
+
+BOREA_Data = { 1540.0, -6650.0, -71.3, 0.0, -0.2 };
+BOREA_Name = "Borea (Centre)";
+
+MIANI_Data = { 885.0, -6310.0, -70.0, 0.0, -0.2 };
+MIANI_Name = "Miani (Nord-Ouest)";
+
+ROSILIO_Data = { 1035.0, -6965.0, -71.3, 0.0, -0.2 };
+ROSILIO_Name = "Rosilio (Sud-Ouest)";
+
+// Silan
+
+SIL_Data = { 9954.0, -11017.0, 1.0, 0.0, 0.0 };
+SIL_Name = "Ruines de Silan";

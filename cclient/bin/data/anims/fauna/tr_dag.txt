@@ -1,0 +1,42 @@
+{RUN
+WALK tr_mo_dag_marche_to_course 1 RUN 100
+* tr_mo_dag_course 0 RUN 100
+}
+
+{WALK
+IDLE tr_mo_dag_idle_to_marche 1 WALK 100
+* tr_mo_dag_marche 0 WALK 100
+}
+
+{IDLE
+* tr_mo_dag_idle 1 IDLE_SWITCH 100
+}
+
+{IDLE_SWITCH
+* - 1 IDLE0 65 IDLE1 15 IDLE2 15 IDLE_GRATTE 5 FAIT_BEAU 5 IDLE_ABOIE 5
+}
+
+
+{IDLE0
+* tr_mo_dag_idle 1 IDLE 100
+}
+
+{IDLE1
+* tr_mo_dag_idle1 1 IDLE 100
+}
+
+{IDLE2
+* tr_mo_dag_idle2 1 IDLE 100
+}
+
+{IDLE_GRATTE
+* tr_mo_dag_idle_gratte 1 IDLE 100
+}
+
+{FAIT_BEAU
+* tr_mo_dag_faire_beau 1 IDLE 100
+}
+
+{IDLE_ABOIE
+* tr_mo_dag_idle_aboie 1 IDLE 100
+}
